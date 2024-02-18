@@ -1,11 +1,8 @@
-import { Button } from "@/components/ui/button";
-
 export default function Home() {
   return (
-    <div>
-      <Button size="lg" variant="default">
-        Hello
-      </Button>
+    <div className="flex flex-col gap-y-4">
+      <div>This is a screen for authenticated users only</div>
+      <div>{/* <UserButton /> */}</div>
     </div>
   );
 }
